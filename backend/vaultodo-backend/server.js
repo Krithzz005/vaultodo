@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 5501; // Ensure this matches your frontend
 
 // Middleware
 app.use(cors({
-  origin: ["http://localhost:5500", "https://Krithzz005.github.io"], // frontend origins
+  origin: ["http://localhost:5500", "https://Krithzz005.github.io", "https://vaultodo-frnt.onrender.com"], // frontend origins
   methods: ["GET", "POST", "PUT", "DELETE"],
   credentials: true
 }));
