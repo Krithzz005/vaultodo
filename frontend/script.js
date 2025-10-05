@@ -1,7 +1,7 @@
 // Base URL for your backend API
-const BASE_URL = window.location.hostname === "localhost"
-  ? "http://localhost:5000"
-  : "https://vaultodo-backend.onrender.com"; 
+const API_BASE_URL = window.location.hostname === "localhost"
+  ? "http://localhost:5501"  // Match your backend port
+  : "https://vaultodo-bck.onrender.com";  // Your Render URL
 // --- DOM Elements ---
 const focusLoginContainer = document.getElementById('focus-login-container');
 const loginWindow = document.getElementById('login-window');
